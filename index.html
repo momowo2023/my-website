@@ -8,14 +8,17 @@
     <title>Personal Portfolio Design</title>
     <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="portfolio-container">
-            <div class="portfolio-row header-wrap">
+            <div class="portfolio-rowheader-wrap">
                 <div class="brand-name">
-                    <a href="#" class="logo">Jane Doe</a>
+                    <a href="#" class="logo">Mu-Se Kuo</a>
                 </div>
                 <div class="hamburger">
                     <i class="fa-solid fa-bars"></i>
@@ -23,13 +26,10 @@
                 <div class="portfolio-navbar">
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                            <a href="#">Works</a>
                         </li>
                         <li>
-                            <a href="#">Resume</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#">CV</a>
                         </li>
                     </ul>
                 </div>
@@ -41,22 +41,75 @@
             <div class="portfolio-container">
                 <div class="slider-content">
                     <div class="slider-general">
-                        <span class="welcome-msg">
-                            Welcome! Hello World!!
-                        </span>
                         <div class="welcome-text">
-                            <h1>
-                                Hi, I am
-                            </h1>
                             <div class="text-wrap">
-                                <h2 class="main-title">Jane Doe</h2>
-                                <h2 class="hover-title">Jane Doe</h2>
+                                <h2 class="main-title"></h2>
+                                <h2 class="hover-title"></h2>
                             </div>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, neque quaerat?
-                                Repellendus facere necessitatibus ut sunt, ipsam omnis eum, labore, veniam est numquam
-                                veritatis quod ea culpa totam eius neque.
-                            </p>
+                        </div>
+
+                        <div class="personalBackground">
+                            <div class="education">
+                                <h3>Education</h3>
+                                <p>2024 - 2026 </p>
+                                <p>  
+                                    Master's programme in CRAFT! 
+                                    Ceramics and Glass
+                                    <br>Konstfack, Sweden
+                                </p>
+                                <br>
+                                <p>2022 - 2024</p>
+                                <p>
+                                    Keramik 1 & 2
+                                    <br>Capellagården, Sweden
+                                </p>
+                                <br>
+                                <p>2000 - 2004</p>
+                                <p>
+                                    Bachelor of Fine Arts in Visual Communication Design
+                                    <br>Chaoyang University of Technology, Taiwan
+                                </p>
+                            </div>
+                            <br>
+                            <div class="exhibition">
+                                <h3>Group Exhibition</h3>
+                                <p>2024</p>
+                                <p>Sydosten United, Kulturcentrum Ronneby Konsthall
+                                    Capellagården, VIDA Museum & Konsthall, Borgholm
+                                    Capellagården Sommarutställning, Färjestaden <br>
+                                    KIKAIN, Kalmar <br>
+                                    Stockholm Furniture Fair, Stockholm
+                                </p><br>
+                                <p>2023</p>
+                                <p>Slip Away, Färjestaden <br>
+                                    Capellagården Sommarutställning, Färjestaden
+                                </p>
+                            </div>
+                            <br>
+                            <div class="collection">
+                                <h3>Collection</h3>
+                                <p>
+                                    Kalmar kommun
+                                </p>
+                            </div>
+                            <br>
+                            <div class="scholarship">
+                                <h3>Award & Scholarship</h3>
+                                <p>2024</p>
+                                <p>
+                                    Konstfack Tuition Fee Scholarship<br>
+                                    Estrid Ericsons Stiftelse
+                                </p><br>
+                                <p>2023</p>
+                                <p>
+                                    Bengt Julins Stiftelse<br>
+                                    Estrid Ericsons Stiftelse
+                                </p>
+                                
+                            </div>
+
+
+
                             <div class="download-resume">
                                 <a href="Jane-Doe-CV.pdf" target="_blank">
                                     Download CV
@@ -64,48 +117,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="slider-image">
+                    <!-- <div class="slider-image">
                         <div class="welcome-image">
                             <img src="image/image.jpg" alt="">
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
-    <section id="contact">
-        <div class="portfolio-container">
-            <div class="text-wrap">
-                <h2 class="main-title">Stay Connceted</h2>
-                <h2 class="hover-title">Stay Connceted</h2>
-            </div>
-            <div class="contact-info">
-                <span>
-                    King Street, Melbourne Victoria
-                </span>
-                <h3>codzsword@gmail.com</h3>
-                <a href="#">
-                    + 88 (9800) 7171
-                </a>
-            </div>
-            <div class="social-link">
-                <ul>
-                    <li>
-                        <a href="#">Facebook</a>
-                    </li>
-                    <li>
-                        <a href="#">Twitter</a>
-                    </li>
-                    <li>
-                        <a href="#">Instagram</a>
-                    </li>
-                    <li>
-                        <a href="#">LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
+    <footer>
+        <div class="footer">
+            <p>© 2024 Mowei Wu.
+                All rights reserved.</p>
         </div>
-    </section>
+    </footer>
     <script>
         const hamburger = document.querySelector(".hamburger");
         hamburger.addEventListener("click", function () {
